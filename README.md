@@ -35,8 +35,14 @@ To install and use the environment you have to follow these steps:
    ```python
    pip install ./python
    ```
- 5 Run Navigation.ipynb (Jupyter Notebook) with code and watch how it trains a new model and later use it to play alone.
+ 5 Run [Navigation.ipynb](https://github.com/jbagnato/deep-rl-unity/blob/main/Navigation.ipynb) (Jupyter Notebook) with code and watch how it trains a new model and later use it to play alone.
    
 ## Instructions
 
-The README describes how to run the code in the repository, to train the agent.
+To train a new agent, open [Navigation.ipynb](https://github.com/jbagnato/deep-rl-unity/blob/main/Navigation.ipynb) Jupyter Notebook file.
+
+Follow the steps described on each cell. 
+
+You will find a dqn function that will train until ```np.mean(scores_window)>=15.0```This means that the average score is greater than 15.
+
+Then it will use saved agent in file 'checkpoint.pth' to run 3 episodes that you can enjoy in realtime :-)
