@@ -3,6 +3,8 @@
 
 Udacity Deep Reinforcement Learning Nanodegree - Practice 1
 
+![Trained Agent](https://github.com/jbagnato/deep-rl-unity/blob/main/p1_navigation.gif)
+
 ## Project Details
 
 This is a Deep Reinforcement Learning excercice. 
