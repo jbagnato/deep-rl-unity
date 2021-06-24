@@ -8,9 +8,28 @@ Udacity Deep Reinforcement Learning Nanodegree - Practice 1
 ## Project Details
 
 This is a Deep Reinforcement Learning excercice. 
-The environment is a 3D space. 
+The environment is a 3D space. The action space has 37 values. The Unity environment returns values like this:
+
+   ```xml
+States look like: [1.         0.         0.         0.         0.84408134 0.
+ 0.         1.         0.         0.0748472  0.         1.
+ 0.         0.         0.25755    1.         0.         0.
+ 0.         0.74177343 0.         1.         0.         0.
+ 0.25854847 0.         0.         1.         0.         0.09355672
+ 0.         1.         0.         0.         0.31969345 0.
+ 0.        ]
+   ```
+
 The agent has to move in 4 directions (actions) and get the yellow bananas (+1 score). 
 If the agent get a blue banana it will score -1.
+
+   ```xml
+0 - walk forward
+1 - walk backward
+2 - turn left
+3 - turn right
+   ```
+
 This is an episodic problem in a continuous space. 
 The objective of the excercise is to use a DRL algorithm that can reach an average score of 15.0 in less than 1800 episodes.
 
